@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b5ab7e2b67b436db878fd7b023d8616, type: 3}
+  m_Name: ActionFitPackageInfo_SO
+  m_EditorClassIdentifier: 
+  _packageId: com.actionfit.sosingleton
+  _displayName: SO Singleton
+  _repoName: SO_Singleton
+  _owner: 
+  _status: verified
+  _description: "Resources/SO/{\uD0C0\uC785\uBA85} \uACBD\uB85C\uC5D0\uC11C \uC790\uB3D9
+    \uB85C\uB4DC\uB418\uB294 ScriptableObject \uC2F1\uAE00\uD1A4 \uBCA0\uC774\uC2A4
+    \uD074\uB798\uC2A4 SO_Singleton<T>. \uB370\uC774\uD130 \uD14C\uC774\uBE14/\uC124\uC815
+    SO\uC758 \uC804\uC5ED \uB2E8\uC77C \uC778\uC2A4\uD134\uC2A4 \uC811\uADFC(.Instance)\uC744
+    \uC81C\uACF5\uD569\uB2C8\uB2E4."
+  _releaseNote: "package_catalog/package_versions \uCE74\uD0C8\uB85C\uADF8 \uB9C8\uC774\uADF8\uB808\uC774\uC158\uC744
+    \uC704\uD55C \uC7AC\uBC30\uD3EC \uBC84\uC804"
+  _dependenciesOverride: 
