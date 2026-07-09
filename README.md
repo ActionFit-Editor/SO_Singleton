@@ -19,5 +19,11 @@ var v = MySettings_SO.Instance.Value; // Resources.Load<MySettings_SO>("SO/MySet
 ## 설치 (manifest.json)
 
 ```json
-"com.actionfit.sosingleton": "https://github.com/ActionFitGames/<repo>.git#1.0.0"
+"com.actionfit.sosingleton": "https://github.com/ActionFit-Editor/SO_Singleton.git#1.0.3"
 ```
+
+## Unity Menu
+
+- Package root: `Tools > Package > SO Singleton`.
+- README: `Tools > Package > SO Singleton > README`.
+- Package commands stay under the same package root and appear above the separated README/Setting SO entries when those entries exist.

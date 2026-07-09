@@ -7,7 +7,7 @@ This file is shipped inside the UPM package so an AI assistant in a consuming Un
 - Package ID: `com.actionfit.sosingleton`
 - Display name: SO Singleton
 - Repository: `https://github.com/ActionFit-Editor/SO_Singleton.git`
-- Current package version at generation time: `1.0.2`
+- Current package version at generation time: `1.0.3`
 - Unity version: `6000.2`
 
 ## Purpose
@@ -46,6 +46,14 @@ Read this file when:
 - Preserve Unity `.meta` files when adding, moving, or renaming files inside the package.
 - When behavior changes, update this `AI_GUIDE.md` in the same package before publishing so consuming projects receive the latest AI context.
 - Keep `README.md` focused on human usage. Keep this file focused on AI-facing architecture, constraints, migration notes, and package-specific editing rules.
+
+## Package Tools Menu
+
+- Unity menu root: `Tools/Package/SO Singleton/`.
+- Keep package commands under this package root.
+- Lower separated entries:
+- `README`: opens this package README.
+- Do not add README or Setting SO access back to Custom Package Manager package rows or Project Files.
 
 ## Release Note Rules
 
