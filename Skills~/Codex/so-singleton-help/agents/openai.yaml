@@ -1,0 +1,4 @@
+interface:
+  display_name: "SO Singleton Help"
+  short_description: "Explain Resources singleton loading safely"
+  default_prompt: "Use $so-singleton-help to explain SO Singleton loading, asset placement, compatibility, and help-only safety boundaries."

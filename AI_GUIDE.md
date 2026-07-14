@@ -7,12 +7,18 @@ This file is shipped inside the UPM package so an AI assistant in a consuming Un
 - Package ID: `com.actionfit.sosingleton`
 - Display name: SO Singleton
 - Repository: `https://github.com/ActionFit-Editor/SO_Singleton.git`
-- Current package version at generation time: `1.0.3`
+- Current package version at generation time: `1.0.4`
 - Unity version: `6000.2`
 
 ## Purpose
 
 SO Singleton provides ScriptableObject singleton loading conventions. Use `README.md`, `package.json`, package source files, and `Editor/PackageInfo/ActionFitPackageInfo_SO.asset` together to understand the user-facing workflow and catalog metadata.
+
+## Agent Skills
+
+- `Skills~/manifest.json` registers schema v2 `so-singleton-help` for Codex and Claude with read-only access.
+- Help reads generated `PACKAGE_SKILLS.md` before explaining the `Resources/SO/{type-name}` lookup, non-null instance cache, global API, asset placement, menu, and safety boundaries.
+- This initial registration is help-only. It does not load or scan assets through Unity, create or change ScriptableObjects, move Resources folders, run validation, publish, tag, or update the catalog.
 
 ## Project Router Registration
 

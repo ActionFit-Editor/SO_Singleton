@@ -16,10 +16,16 @@ var v = MySettings_SO.Instance.Value; // Resources.Load<MySettings_SO>("SO/MySet
 - 에셋은 어딘가의 `Resources/SO/{클래스명}.asset` 에 두면 됩니다(Unity가 모든 Resources 폴더를 가상 통합).
 - global namespace로 제공되어 기존 `SO_Singleton<T>` 사용 코드와 호환됩니다.
 
+## Agent Skills
+
+Custom Package Manager의 `Install or Refresh Agent Skills`를 실행하면 Codex와 Claude에 read-only `so-singleton-help`가 설치됩니다.
+
+help는 `Resources/SO/{타입명}` 로딩, non-null instance cache, global API와 asset 배치 규칙을 설명합니다. ScriptableObject를 검색·생성·이동·이름 변경하거나 serialized value를 수정하지 않는 help-only 진입점입니다.
+
 ## 설치 (manifest.json)
 
 ```json
-"com.actionfit.sosingleton": "https://github.com/ActionFit-Editor/SO_Singleton.git#1.0.3"
+"com.actionfit.sosingleton": "https://github.com/ActionFit-Editor/SO_Singleton.git#1.0.4"
 ```
 
 ## Unity Menu

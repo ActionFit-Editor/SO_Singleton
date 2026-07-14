@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "skillPrefix": "so-singleton",
+  "helpSkill": "so-singleton-help",
+  "skills": [
+    {
+      "name": "so-singleton-help",
+      "agents": [
+        "codex",
+        "claude"
+      ],
+      "includeShared": false,
+      "access": "read-only"
+    }
+  ]
+}
