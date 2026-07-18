@@ -1,6 +1,6 @@
 {
     "name":  "com.actionfit.sosingleton",
-    "version":  "1.0.4",
+    "version":  "1.0.5",
     "displayName":  "SO Singleton",
     "description":  "Resources/SO/{타입명} 경로에서 자동 로드되는 ScriptableObject 싱글톤 베이스 클래스 SO_Singleton\u003cT\u003e. 데이터 테이블/설정 SO의 전역 단일 인스턴스 접근(.Instance)을 제공합니다.",
     "unity":  "6000.2",
