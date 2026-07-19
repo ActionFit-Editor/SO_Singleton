@@ -1,0 +1,24 @@
+{
+    "name": "com.actionfit.sosingleton.Editor.Tests",
+    "rootNamespace": "ActionFit.SOSingleton.Editor.Tests",
+    "references": [
+        "com.actionfit.sosingleton",
+        "com.actionfit.sosingleton.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}
